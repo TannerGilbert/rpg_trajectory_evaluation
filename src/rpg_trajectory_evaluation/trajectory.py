@@ -1,21 +1,19 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 
-import os
-import yaml
 import math
+import os
 import pickle
 
-import numpy as np
-from colorama import init, Fore
-
-import trajectory_utils as traj_utils
-import trajectory_loading as traj_loading
-import results_writer as res_writer
-import compute_trajectory_errors as traj_err
 import align_utils as au
-from metrics import kRelMetrics, kRelMetricLables
-
+import compute_trajectory_errors as traj_err
+import numpy as np
+import results_writer as res_writer
+import trajectory_loading as traj_loading
+import trajectory_utils as traj_utils
 import transformations as tf
+import yaml
+from colorama import Fore, init
+from metrics import kRelMetricLables, kRelMetrics
 
 
 class Trajectory:

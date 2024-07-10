@@ -40,8 +40,7 @@ Zichao Zhang, Davide Scaramuzza: A Tutorial on Quantitative Trajectory Evaluatio
 6. [Credits](#credits)
 
 ## Install
-The package is written in python and tested in Ubuntu 16.04 and 18.04.
-Currently only `python2` is supported.
+The package is written in Python and was last tested with Ubuntu 20.04 and Python 3.8.
 The package can be used as a ROS package as well as a standalone tool.
 To use it as a ROS package, simply clone it into your workspace.
 It only depends on [`catkin_simple`](https://github.com/catkin/catkin_simple) to build.
@@ -51,6 +50,7 @@ It only depends on [`catkin_simple`](https://github.com/catkin/catkin_simple) to
 * `numpy` and `matplotlib` for the analysis/plotting
 * `colorama` for colored console output
 * `ruamel.yaml` ([install](https://pypi.org/project/ruamel.yaml/)) for [preserving the order in yaml configurations](https://stackoverflow.com/questions/5121931/in-python-how-can-you-load-yaml-mappings-as-ordereddicts)
+* `latex`: `sudo apt install texlive-latex-extra`
 
 ## Prepare the Data
 Each trajectory estimate (e.g., output of a visual-inertial odometry algorithm) to evaluate is organized as a self-contained folder.

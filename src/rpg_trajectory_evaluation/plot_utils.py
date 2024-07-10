@@ -1,15 +1,17 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 """
 @author: Christian Forster
 """
 
 import os
-import yaml
-import numpy as np
-import matplotlib.pyplot as plt
+
 import matplotlib as mpl
-from mpl_toolkits.mplot3d import Axes3D
+import matplotlib.pyplot as plt
+import numpy as np
+import yaml
 from matplotlib import rc
+from mpl_toolkits.mplot3d import Axes3D
+
 rc('font', **{'family': 'serif', 'serif': ['Cardo']})
 rc('text', usetex=True)
 

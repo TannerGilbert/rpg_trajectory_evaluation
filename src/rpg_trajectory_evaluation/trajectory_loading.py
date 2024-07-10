@@ -1,11 +1,11 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 
 import os
-import numpy as np
-from colorama import init, Fore
 
-import trajectory_utils
 import associate_timestamps as associ
+import numpy as np
+import trajectory_utils
+from colorama import Fore, init
 
 init(autoreset=True)
 

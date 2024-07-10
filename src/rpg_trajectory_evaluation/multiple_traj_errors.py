@@ -1,11 +1,11 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 
-import numpy as np
 import os
 import pickle
 
+import numpy as np
 import results_writer as rw
-from metrics import kRelMetrics, kRelMetricLables
+from metrics import kRelMetricLables, kRelMetrics
 
 
 class MulTrajError(object):

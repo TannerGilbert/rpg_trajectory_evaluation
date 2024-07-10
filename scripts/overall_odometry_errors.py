@@ -1,14 +1,13 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 
 import os
-import numpy as np
-import matplotlib.pyplot as plt
 
 import add_path
-import results_writer as res_writer
+import matplotlib.pyplot as plt
+import numpy as np
 import plot_utils as pu
-
-from analyze_trajectories import FORMAT, PLOT_LABELS, COLORS
+import results_writer as res_writer
+from analyze_trajectories import COLORS, FORMAT, PLOT_LABELS
 
 # boxplot distances that will be used for all datasets for overall errors
 OVERALL_BOXPLOT_DISTANCES = [7.0, 14.0, 21.0, 28.0, 35.0]

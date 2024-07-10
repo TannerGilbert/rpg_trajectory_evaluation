@@ -1,23 +1,22 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 
-import os
 import argparse
-from ruamel.yaml import YAML
-import shutil
 import json
+import os
+import shutil
 from datetime import datetime
 
-import numpy as np
-import matplotlib.pyplot as plt
-from matplotlib import rc
-from colorama import init, Fore
-
 import add_path
-from trajectory import Trajectory
+import matplotlib.pyplot as plt
+import numpy as np
 import plot_utils as pu
 import results_writer as res_writer
 from analyze_trajectory_single import analyze_multiple_trials
-from fn_constants import kNsToEstFnMapping, kNsToMatchFnMapping, kFnExt
+from colorama import Fore, init
+from fn_constants import kFnExt, kNsToEstFnMapping, kNsToMatchFnMapping
+from matplotlib import rc
+from ruamel.yaml import YAML
+from trajectory import Trajectory
 
 init(autoreset=True)
 

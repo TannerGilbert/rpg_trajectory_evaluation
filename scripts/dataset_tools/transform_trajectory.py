@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Wed Apr 18 11:16:38 2018
@@ -13,10 +13,11 @@ For example, T_eye = T_hand * T_hand_eye.
 
 """
 
-import os
-import numpy as np
 import argparse
 import math
+import os
+
+import numpy as np
 
 
 def quat2dcm(quaternion):

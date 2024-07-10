@@ -1,19 +1,18 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 
-import os
 import argparse
-
-import numpy as np
-import matplotlib.pyplot as plt
-from matplotlib import rc
-import matplotlib
-from colorama import init, Fore
+import os
 
 import add_path
-from trajectory import Trajectory
+import matplotlib
+import matplotlib.pyplot as plt
+import numpy as np
 import plot_utils as pu
-from fn_constants import kNsToEstFnMapping, kNsToMatchFnMapping, kFnExt
+from colorama import Fore, init
+from fn_constants import kFnExt, kNsToEstFnMapping, kNsToMatchFnMapping
+from matplotlib import rc
 from multiple_traj_errors import MulTrajError
+from trajectory import Trajectory
 
 init(autoreset=True)
 rc('font', **{'family': 'serif', 'serif': ['Cardo']})

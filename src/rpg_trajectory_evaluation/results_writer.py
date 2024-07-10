@@ -1,7 +1,8 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 import os
-import yaml
+
 import numpy as np
+import yaml
 
 
 def compute_statistics(data_vec):

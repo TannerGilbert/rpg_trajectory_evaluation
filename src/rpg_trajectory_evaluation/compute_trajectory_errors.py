@@ -1,8 +1,8 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 
 import os
-import numpy as np
 
+import numpy as np
 import trajectory_utils as tu
 import transformations as tf
 
