@@ -1,0 +1,7 @@
+catkin_pkg==1.0.0
+catkin_pkg_modules==1.0.0
+colorama==0.4.3
+matplotlib==3.7.5
+numpy==1.24.4
+PyYAML==6.0.1
+ruamel.base==1.0.0

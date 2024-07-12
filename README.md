@@ -48,6 +48,12 @@ It only depends on [`catkin_simple`](https://github.com/catkin/catkin_simple) to
 **Dependencies**: You will need install the following:
 
 * `numpy` and `matplotlib` for the analysis/plotting
+  * When testing I experienced some issues with certain combinations of Numpy and Matplotlib versions (`numpy==1.24.4` and `matplotlib==3.1.2`)
+  * Tested working versions `numpy==1.24.4` and `matplotlib==3.7.5`. Note that for that Matplotlib version two additional Latex rendering packages might need to be installed
+  ```
+  sudo apt install cm-super
+  sudo apt install dvipng
+  ```
 * `colorama` for colored console output
 * `ruamel.yaml` ([install](https://pypi.org/project/ruamel.yaml/)) for [preserving the order in yaml configurations](https://stackoverflow.com/questions/5121931/in-python-how-can-you-load-yaml-mappings-as-ordereddicts)
 * `latex`: `sudo apt install texlive-latex-extra`
