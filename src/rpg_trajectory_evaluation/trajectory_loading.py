@@ -4,8 +4,8 @@ import os
 import numpy as np
 from colorama import init, Fore
 
-import trajectory_utils
-import associate_timestamps as associ
+from . import trajectory_utils
+from . import associate_timestamps as associ
 
 init(autoreset=True)
 

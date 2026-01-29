@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import yaml
 from matplotlib import rc
-from mpl_toolkits.mplot3d import Axes3D
+from mpl_toolkits.mplot3d.axes3d import Axes3D
 
 rc('font', **{'family': 'serif', 'serif': ['Cardo']})
 rc('text', usetex=True)

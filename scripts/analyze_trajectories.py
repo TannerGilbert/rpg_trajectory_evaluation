@@ -9,14 +9,14 @@ from datetime import datetime
 import add_path
 import matplotlib.pyplot as plt
 import numpy as np
-import plot_utils as pu
-import results_writer as res_writer
+import rpg_trajectory_evaluation.plot_utils as pu
+import rpg_trajectory_evaluation.results_writer as res_writer
 from analyze_trajectory_single import analyze_multiple_trials
 from colorama import Fore, init
 from fn_constants import kFnExt, kNsToEstFnMapping, kNsToMatchFnMapping
 from matplotlib import rc
 from ruamel.yaml import YAML
-from trajectory import Trajectory
+from rpg_trajectory_evaluation.trajectory import Trajectory
 
 init(autoreset=True)
 

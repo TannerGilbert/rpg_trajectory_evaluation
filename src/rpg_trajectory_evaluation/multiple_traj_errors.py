@@ -4,8 +4,8 @@ import numpy as np
 import os
 import pickle
 
-import results_writer as rw
-from metrics import kRelMetrics, kRelMetricLables
+from . import results_writer as rw
+from .metrics import kRelMetrics, kRelMetricLables
 
 
 class MulTrajError(object):

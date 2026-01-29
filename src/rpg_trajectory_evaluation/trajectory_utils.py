@@ -5,7 +5,7 @@
 
 import os
 import numpy as np
-import transformations as tf
+from . import transformations as tf
 
 
 def get_rigid_body_trafo(quat, trans):
